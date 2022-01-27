@@ -1,0 +1,13 @@
+.languages {
+    margin: 80px 50px;
+    padding: 30px;
+    background: whitesmoke;       
+    border-radius: 10px;
+    color: #000000;       
+}
+
+.languages h2 {
+    color: rgb(2, 204, 93);
+    font-size: 24px;
+    text-transform: uppercase;
+}

@@ -5,6 +5,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+  background: rgb(30, 30, 30); 
+  transition: 0.3s;
+}
+
+body.darkMode{
+  background: whitesmoke;
+  color: #000000;
+  transition: 0.3s;
 }
 
 code {

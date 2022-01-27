@@ -1,0 +1,18 @@
+.habilities {
+    margin: 80px 50px;
+    padding: 30px;
+    background: whitesmoke;       
+    border-radius: 10px;
+    color: #000000;      
+}
+
+.habilities h4{
+    font-size: 24px;
+    color: rgb(2, 204, 93);
+    text-transform: uppercase;    
+}
+
+.habilities ul li {
+    list-style: none;
+    margin-right: 35px; 
+}
