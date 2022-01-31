@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  
+  .btn {
+    padding: 15px 20px;
+    font-size: 20px;
+    margin: 20px;
+    border: none;
+    background: rgb(2, 185, 85);
+    color: whitesmoke;
+
+    &:hover {
+
+      background: rgb(2, 139, 64);
+    }
+
+    &:active {
+
+      background: linear-gradient(to bottom, #094, #072);
+    }
+
+    &.active {
+      background: #094;
+    }
+  }
+}
+
+

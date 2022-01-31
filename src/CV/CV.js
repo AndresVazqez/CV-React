@@ -59,7 +59,6 @@ export const CV = {
     habilities: [
       "Corel Draw",
       "Excel",
-      "DaVinci Resolve (edición de videos)",
       "Visual Studio Code",
       "HTML",
       "JavaScript",

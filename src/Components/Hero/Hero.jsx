@@ -1,5 +1,5 @@
 import React from "react";
-import "./Hero.css";
+import "./Hero.scss";
 
 const Hero = ({ hero }) => {
     return (
@@ -30,9 +30,7 @@ const Hero = ({ hero }) => {
                     })
                 }
             </div>
-            
         </div> 
-    
   ) 
 };
 

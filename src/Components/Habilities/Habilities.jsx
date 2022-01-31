@@ -1,5 +1,5 @@
 import React from "react";
-import "./Habilities.css";
+import "./Habilities.scss";
 
 const Habilities = ({ habilities }) => {
 

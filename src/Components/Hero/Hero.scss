@@ -1,0 +1,90 @@
+@import '../../index.scss';
+
+.hero {    
+    padding: 15px;
+    
+    @include desktop {
+
+        padding: 50px;
+    }
+
+    img {
+        width: 150px;
+        border-radius: 50%;
+        border: 6px solid rgb(2, 204, 93);
+        margin: 10px auto;
+
+        @include desktop {
+
+            width: 200px;
+            margin: 20px auto;
+        }
+    }
+
+    .card {    
+        margin: 30px auto;
+        padding: 15px;    
+        background: whitesmoke;    
+        border-radius: 10px;
+        color: #000000; 
+
+        @include desktop {
+                        
+            padding: 30px;             
+         
+        }
+
+        h2{
+            color : #000000;
+            font-size: 30px;
+
+        }
+
+        a {
+            font-weight: bold;
+            color: #000000;
+            text-decoration: none;
+        }
+         
+    }
+
+    .about {
+        padding: 10px;
+        margin: 40px auto;    
+        background: whitesmoke;   
+        border-radius: 10px;
+        color: #000000; 
+
+        @include desktop {
+
+            padding: 30px;
+            margin: 60px auto;   
+           
+        }
+
+        h4 {    
+            font-size: 24px;
+            color: rgb(2, 204, 93);           
+           
+        }
+
+        ul {
+
+            padding: 0;
+
+            li {
+
+                text-decoration: none;
+                padding: 5px;
+                list-style: none;
+                
+                @include desktop {
+
+                    padding: 20px;
+                }
+
+            }
+        }
+    }
+}
+
